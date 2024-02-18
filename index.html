@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spotify Imersão</title>
-  <link rel="stylesheet" href="./reset.css">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./src/styles/reset.css">
+  <link rel="stylesheet" href="./src/styles/vars.css">
+  <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css">
 </head>
@@ -14,7 +15,7 @@
     <nav class="sidebar__navigation">
       <div class="logo">
         <a href="">
-          <img src="./assets/icons/logo-spotify.png" alt="logo do spotify">
+          <img src="./src/assets/icons/logo-spotify.png" alt="logo do spotify">
         </a>
       </div>
           <ul>
@@ -34,20 +35,20 @@
     </nav>
 
     <div class="library">
-      <div class="labrary__content">
+      <div class="library__content">
         <button class="library__button">
           <span class="fa fas fa-book"></span>
           <span>Sua biblioteca</span>
         </button>
-        <span class="fa fa-plus"></span>
 
         <section class="section-playlist">
-          <div class="section-playlist__content"></div>
-          <span class="text title">Crie sua primeira playlist</span>
-          <span class="text subtitle">É fácil, vamos te ajudar.</span>
-          <button class="section-playlist__button">
-            <span>Criar playlist</span>
-          </button>
+          <div class="section-playlist__content">
+            <span class="text title">Crie sua primeira playlist</span>
+            <span class="text subtitle">É fácil, vamos te ajudar.</span>
+            <button class="section-playlist__button">
+              <span>Criar playlist</span>
+            </button>
+          </div>
         </section>
 
         <div class="cookies">
@@ -63,5 +64,20 @@
       </div>
     </div>
   </div>
+
+  <main>
+    <div class="main-container">
+      
+    </div>
+  </main>
+
+  <footer class="disclaimer-premium">
+    <div class="text">
+      <p>Inscreva-se para curtir música ilimitada e podcasts só com alguns anuncios. Não precisa de cartão de crédito.</p>
+    </div>
+    <div class="button">
+      <button type="button">Inscreva-se grátis</button>
+    </div>
+  </footer>
 </body>
 </html>
